@@ -6,6 +6,8 @@ public class Aluno {
     private String nome;
     private Email email;
 
+    private Telefone telefone;
+
 
 
 }
