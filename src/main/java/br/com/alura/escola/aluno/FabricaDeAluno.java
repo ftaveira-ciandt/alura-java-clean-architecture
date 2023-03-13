@@ -1,4 +1,4 @@
-package org.escola;
+package br.com.alura.escola.aluno;
 
 public class FabricaDeAluno {
 
