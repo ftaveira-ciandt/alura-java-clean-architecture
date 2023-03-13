@@ -21,6 +21,7 @@ class CPFTest {
                      () -> new CPF("123"));
     }
 
+
     @Test
     void deveriaAceitarCpfValido() {
         String numero = "123.456.789-99";
