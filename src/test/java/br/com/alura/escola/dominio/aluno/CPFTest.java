@@ -1,5 +1,6 @@
-package org.escola;
+package br.com.alura.escola.dominio.aluno;
 
+import br.com.alura.escola.dominio.aluno.CPF;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
