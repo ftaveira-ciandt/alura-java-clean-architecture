@@ -15,7 +15,7 @@ public class Telefone {
             throw new IllegalArgumentException(("Numero invalido!"));
         }
 
-        if (!numero.matches("\\d{8} |\\d{9} ")) {
+        if (!numero.matches("\\d{2} |\\d{9} ")) {
             throw new IllegalArgumentException("Numero invalido!");
         }
 
@@ -26,11 +26,11 @@ public class Telefone {
 
 
     public String getDdd() {
-        return String.valueOf(0);
+        return this.ddd;
     }
 
     public String getNumero() {
-        return String.valueOf(0);
+        return this.numero;
     }
 
 }

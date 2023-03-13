@@ -35,9 +35,9 @@ class TelefoneTest {
     public void deveriaPermitirCriarTelefoneComDDDENumeroValidos() {
         String ddd = "11";
         String numero = "123456789";
-        Telefone telefone = new Telefone(ddd, numero);
-        assertEquals(ddd, telefone.getDdd());
-        assertEquals(numero, telefone.getNumero());
+        Telefone telefones = new Telefone(ddd, numero);
+        assertEquals(ddd, telefones.getDdd());
+        assertEquals(numero, telefones.getNumero());
     }
 
 }
