@@ -23,7 +23,8 @@ public class FabricaDeAluno {
     public static void main(String[] args) {
         FabricaDeAluno fabrica = new FabricaDeAluno();
         fabrica.comNomeCPFEmail("Francisco", "111.222.333-22", "francisco.taveira@aluno.com.br" )
-               .comTelefone("31", "999999999");
+               .comTelefone("31", "999999999")
+               .criar();
     }
 
 }
