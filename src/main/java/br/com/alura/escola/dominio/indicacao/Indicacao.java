@@ -19,14 +19,17 @@ public class Indicacao {
 
     public Aluno getIndicado() {
         return indicado;
+
     }
 
     public Aluno getIndicante() {
         return indicante;
+
     }
 
     public LocalDateTime getDataIndicacao() {
         return dataIndicacao;
+
     }
 
 }
