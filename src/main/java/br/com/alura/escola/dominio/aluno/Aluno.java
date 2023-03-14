@@ -2,12 +2,15 @@ package br.com.alura.escola.dominio.aluno;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class Aluno {
 
     private CPF cpf;
     private String nome;
     private Email email;
+
+    private Long id;
 
     private List<Telefone> telefones = new ArrayList<>();
 
