@@ -2,12 +2,15 @@ package br.com.alura.escola.dominio.aluno;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class Aluno {
 
     private CPF cpf;
     private String nome;
     private Email email;
+
+    private Long id;
 
     private List<Telefone> telefones = new ArrayList<>();
 
@@ -23,17 +26,18 @@ public class Aluno {
         this.telefones.add(new Telefone(ddd, numero));
     }
 
-    public CPF getCpf() {
-        return cpf;
+    public String getCpf() {
+        return cpf.getNumero();
     }
 
     public String getNome() {
         return nome;
     }
 
-    public Email getEmail() {
-        return email;
+    public String getEmail() {
+        return email.getEndereco();
     }
 
+    public List<Telefone> getTelefones() { return telefones; }
 
 }
